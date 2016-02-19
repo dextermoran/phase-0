@@ -12,4 +12,4 @@
 #### I kind of found the whole thing to be fun! 
 
 ![sketch](/week-2//imgs/other-index-sketch.jpg)
-![wireframe](/week-2/imgs/blog-wireframe.jpg)
+![wireframe](/week-2/imgs/blog wireframe.jpg)
