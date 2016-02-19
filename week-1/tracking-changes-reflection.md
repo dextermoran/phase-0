@@ -1,0 +1,11 @@
+- Tracking and adding changes makes life easier by allowing projects to be developed in chunks that facilitate collaboration and allow for a master branch that only contains finished, stable code. 
+- A commit is the addition of a file to a local git repository. It has an identification number that allows code to be rolled back to it’s state a the the time of the commit. 
+- A commit message should be written in the imperative and contain a clear, concise  explanation of what was changed. 
+- The HEAD^ is the the most recent commit. HEAD~3 would be the third commit back. 
+- After work has been done the file is staged with “git add "file>” then commited with “git commit -m “commit message” and then pushed to github with “git push origin "file"
+- The commands needed are:
+- git add "file"
+- git commit -m “commit message goes here”
+- git push origin "branch name"
+- To make a pull request you push your branch to GitHub, click the pull request button and compare your branch with the master branch. Then, if there are no merge conflicts, you will merge your new branch into the master branch and delete your old branch to keep your repo clean. 
+- A pull request is a method of merging changes into the master branch that allows for the review of code by other developers working in your Github repo. This is an additional protection against the inclusion of errors in the master branch. 
