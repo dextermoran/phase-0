@@ -1,0 +1,62 @@
+* {
+  color:#000080;
+  background-color:#ffffff;
+  }
+  
+h1 {
+  font-weight:700;
+  text-align:center;
+  font-size:1.2em;
+  display:block;
+}
+
+.address {
+  font-size:.75em;
+}
+
+.homePage {
+  font-size:.9em;
+}
+
+.firstLetter {
+  font-size:1.5em;
+}
+  
+  
+a {
+  color:#800080;
+}
+
+a:visited {
+  color:#FF0000;
+}
+
+nav {
+  -webkit-column-count: 2;
+  column-count:2;
+}
+
+nav p {
+  font-size:.5em;
+}
+
+nav a {
+  font-size:1em;
+}
+
+.hrReplacement {
+  border-bottom:1px solid black;
+  padding:2%;
+  margin:2%;
+}
+
+aside img {
+  margin-left:50%;
+  margin-right:50%;
+}
+
+aside h2 {
+  font-weight:200;
+  font-size:.75em;
+  text-align:center;
+}
