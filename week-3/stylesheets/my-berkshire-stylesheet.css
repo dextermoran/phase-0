@@ -60,3 +60,26 @@ aside h2 {
   font-size:.75em;
   text-align:center;
 }
+
+/*
+
+  What is important to know when linking an external file (like a stylesheet) to an HTML file?
+    One needs to know the relative path to the file in addition to specifying the relationship (with the rel tag) and the type of the file being linked to.
+    
+  What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+    We had a bit of a hiccup centering an element, we set it 50% off from both the right and left and it worked well. 
+    
+  What CSS did you use to modify the element style (like size, color, etc.)
+    We used font size, weight, color, and align. As well as display, margin, padding, column-count and border.
+    
+  Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+    We did, we used several to make it easier to applying styling to multiple different elements at once.
+    We used one for the two address elements, one to chang the font-size of the p and a elements, 
+    one to chang to add the drop caps to the title, and one to create the horizontal lines. 
+    
+  When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+    Our Code was defiently following a more current standard which resulted in far better legibility. 
+    This was achieved by using modern, semantic html vs a table and seperating our styling into a seperate css page.
+
+
+*/
