@@ -15,3 +15,5 @@ puts 10 * 365 * 24 * 60
 ```
 
 [defining-variables](/week-4/defining-variables.rb)
+[simple-string](/week-4/simple-string.rb)
+[basic-math](/week-4/basic-math.rb)
