@@ -14,4 +14,4 @@ puts 10 * 365 * 24 * 60
 
 ```
 
-[defining-variables](week-4/defining-variables.rb)
+[defining-variables](/week-4/defining-variables.rb)
