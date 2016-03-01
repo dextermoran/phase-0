@@ -17,3 +17,17 @@ puts 10 * 365 * 24 * 60
 [defining-variables](/week-4/defining-variables.rb)
 [simple-string](/week-4/simple-string.rb)
 [basic-math](/week-4/basic-math.rb)
+
+
+## How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+#### Exactly has one would expect it too with the exception of division where ruby distinguishes between interger and floar division.
+## What is the difference between integers and floats?
+#### An interger is a whole number where as a float is a floating point number - meaning it has a devimal point. 
+## What is the difference between integer and float division?
+#### Interger division returns a whole number and leaves out the remainder. Float division will return a number with a decimal, as if it were done on a calculator.
+## What are strings? Why and when would you use them?
+#### Strings are the variable type used for letters. they can contain just about any character. 
+## What are local variables? Why and when would you use them?
+#### A variable with scope limited to the function it is declared within.
+## How was this challenge? Did you get a good review of some of the basics?
+#### I think it was helpfull. The month of not using ruby since applying was more than enough time for me to be in need of a review. 
