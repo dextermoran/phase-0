@@ -12,10 +12,10 @@ push 5 indexes to a sub array and then start a new one
 people = ["dexter", "chris", "jessica", "elaine", "caroline", "larry", "john", "lauren", "lidnesy", "eric", "alex"]
 
 def acct_group(array)
+  array.shuffle 
   output = []
-  array.each_slice(5) { |a| p output.push(a) }
-  output.each { |a| if a.length <= 3 then puts "alive" end }
-  
+  array.each_slice(5) { |a| output.push(a) }
+  p output
 end
 
 acct_group(people)
