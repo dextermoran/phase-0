@@ -6,19 +6,39 @@
 
 # Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input: a interger as a guess
+# Output: a symbol that indicates wether your guess was correct, too high or two low. 
+# Steps: set the guess to the most recent guess, check if it is above below or equal to the answer and return a symbol (if/elsif/else)
 
 
 # Initial Solution
 
 class GuessingGame
   def initialize(answer)
-    # Your initialization code goes here
+    @answer = answer
+    @last_guess = nil
   end
 
-  # Make sure you define the other required methods, too
+
+  def guess(guess)
+    @last_guess = guess
+    if guess > @answer
+      return :high
+    elsif guess < @answer
+      return :low
+    else
+      return :correct
+    end
+  end
+  
+  def solved?
+    if @last_guess == @answer
+      return true
+    else
+      return false 
+    end
+    
+  end
 end
 
 
