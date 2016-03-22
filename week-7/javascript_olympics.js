@@ -65,3 +65,19 @@ function Athlete(name, age, sport, quote){
 }
 
 // Reflection
+
+/*
+
+What JavaScript knowledge did you solidify in this challenge?
+
+  I feel that i benefited most from the practice with bject constructors, functions, and syntax.
+    
+What are constructor functions?
+
+  They are functions which allows for the creatation of instances of an object. 
+
+How are constructors different from Ruby classes (in your research)?
+
+  A constructor is a means of defining an object. A more suitable comparison would be to the initialize method in a ruby class. 
+
+*/
