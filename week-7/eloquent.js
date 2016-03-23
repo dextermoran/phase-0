@@ -39,6 +39,18 @@ while (counter < 100){
 
 // Complete the `minimum` exercise.
 
+function minCalc(num1, num2){
+  
+  if (num1 < num2)
+    return num1;
+  else if (num2 < num1)
+    return num2;
+  else 
+    return "those are equal"
+    
+}
+
+console.log(minCalc(1,5))
 
 
 // Data Structures: Objects and Arrays
