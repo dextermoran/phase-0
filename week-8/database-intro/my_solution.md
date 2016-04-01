@@ -27,4 +27,16 @@
 ###
 ### Select the region_name and the state_name for all states and regions in ascending order by region_id. 
 ### Refer to the region by name. (This will involve joining the tables).
-#### select region_name,state_name from states join regions on regions.id=states.region_id order by region_id asc;   
+#### select region_name,state_name from states join regions on regions.id=states.region_id order by region_id asc;  
+###
+###
+![Clueless Schema](schema.png)
+###
+### What are databases for?
+#### They are a means for storing data. They are easily secure, easily queried, and organized means of storing data. 
+### What is a one-to-many relationship?
+#### It is a relationship between one row and many others. Ie. a Person_id could be related to may different rows in the Outfit table. 
+### What is a primary key? What is a foreign key? How can you determine which is which?
+#### A primary key is a field that uniquely identifies a row. A foreign key is one used to connect two tables. A foreign key does not need to be unique to it's row. 
+### How can you select information out of a SQL database? What are some general guidelines for that?
+#### you specify the data you want to select, where you want to select it from and what sorting parameters you want. 

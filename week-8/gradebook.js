@@ -10,34 +10,36 @@ Do not alter the students and scores code.
 
 var students = ["Joseph", "Susan", "William", "Elizabeth"]
 
-var scores = [ [80, 70, 70, 100],
-               [85, 80, 90, 90],
-               [75, 70, 80, 75],
-               [100, 90, 95, 85] ]
+var scores = [
+  [80, 70, 70, 100],
+  [85, 80, 90, 90],
+  [75, 70, 80, 75],
+  [100, 90, 95, 85]
+]
 
 var gradebook = {};
 
 
 for (var i = 0; i < students.length; i++) {
-    gradebook[students[i]] = {};   
+  gradebook[students[i]] = {};
 }
 
 for (var i = 0; i < students.length; i++) {
-    gradebook[students[i]].testScores = scores[i]; 
+  gradebook[students[i]].testScores = scores[i];
 }
 
-gradebook.addScore = function addscore(name, score){
+gradebook.addScore = function addscore(name, score) {
   return gradebook[name].testScores.push(score);
 }
 
 
-gradebook.getAverage = function getAverage(name){
+gradebook.getAverage = function getAverage(name) {
   return average(gradebook[name].testScores);
 }
 
-function average(list){
+function average(list) {
   var sum = 0;
-  for(var i = 0; i <list.length; i++){
+  for (var i = 0; i < list.length; i++) {
     sum += list[i];
   }
   return sum / list.length;
@@ -123,7 +125,6 @@ function assert(test, message, test_number) {
 }
 
 
-
 assert(
   (gradebook instanceof Object),
   "The value of gradebook should be an Object.\n",
@@ -151,8 +152,7 @@ assert(
 gradebook.addScore("Susan", 80)
 
 assert(
-  (gradebook.Susan.testScores.length === 5
-   && gradebook.Susan.testScores[4] === 80),
+  (gradebook.Susan.testScores.length === 5 && gradebook.Susan.testScores[4] === 80),
   "Susan's testScores should have a new score of 80 added to the end.",
   "5. "
 )
