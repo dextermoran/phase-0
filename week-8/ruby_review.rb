@@ -111,6 +111,15 @@ super_fizzbuzz(test)
 
 =begin 
 What concepts did you review or learn in this challenge?
+
+  I got some more valuable practice playing with objects in ruby and as well as a refresher after some time off to learn JavaScript. 
+  
 What is still confusing to you about Ruby?
+
+  I feel pretty solid on ruby for the most part. I'm excited to start integrating it with everything else we've learned. 
+
 What are you going to study to get more prepared for Phase 1?
+
+  I think theres still a bit of room for improvement in JS for me. I feel that i understand the concepts i just want to nail down the syntax a bit better. 
+
 =end
