@@ -40,3 +40,4 @@
 #### A primary key is a field that uniquely identifies a row. A foreign key is one used to connect two tables. A foreign key does not need to be unique to it's row. 
 ### How can you select information out of a SQL database? What are some general guidelines for that?
 #### you specify the data you want to select, where you want to select it from and what sorting parameters you want. 
+
