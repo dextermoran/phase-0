@@ -37,3 +37,20 @@ reverse_words("hi my name is john")
 
 
 # Reflection
+
+=begin
+
+What concepts did you review in this challenge?
+
+  we reviewed string manipulations, the ruby docs, and method definitions. 
+  In the other assignment we learned about assert statements and the fundamentals of testing. 
+
+What is still confusing to you about Ruby?
+
+  I feel pretty good with ruby. Theres certainly more to learn but i feel that i have a good grasp on what we've covered so far.  
+
+What are you going to study to get more prepared for Phase 1?
+
+  My time is probably best spent with javascript. I also feel that i haven't quite gotten used to switching back and forth between the two different syntaxes. 
+
+=end
